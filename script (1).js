@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < 11; i++) {
                 await sleep(EVENTS_DELAY * delayRandom());
                 const hasCode = await emulateProgress(clientToken, game.promoId);
-                updateProgress(7 / keyCount, 'Emulating progress...');
+                updateProgress(7 / keyCount, 'Miohh ulheny Thikamaa...');
                 if (hasCode) {
                     break;
                 }
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 const key = await generateKey(clientToken, game.promoId);
-                updateProgress(30 / keyCount, 'Generating key...');
+                updateProgress(30 / keyCount, 'Fenijje Mahithun...');
                 return key;
             } catch (error) {
                 alert(`Failed to generate key: ${error.message}`);
@@ -157,11 +157,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('https://telegram.me/Sam_Dm_bot', '_blank');
+        window.open('https://telegram.me/mSamyhu', '_blank');
     });
 
     telegramChannelBtn.addEventListener('click', () => {
-        window.open('https://telegram.me/Insta_Buy_Follower', '_blank');
+        window.open('https://telegram.me/hamsterarff', '_blank');
     });
 
     const generateClientId = () => {
